@@ -1,27 +1,61 @@
-
-# Secrets
+# Secrets and credentials
 .env
 .env.*
 !.env.example
+.envrc
+.streamlit/secrets.toml
+.pypirc
 
 # Python environments
 .venv/
 venv/
+env/
+ENV/
 
 # Python cache
 __pycache__/
 **/__pycache__/
 *.py[cod]
+*$py.class
 
-# Downloaded audio
+# Downloaded audio and generated data
 downloads/
 *.wav
-
-# Generated vector database
 vector_db/
 
 # IDE settings
 .vscode/
+.idea/
 
-# Jupyter checkpoints
+# Jupyter
 .ipynb_checkpoints/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Type checking and linting
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Logs and temporary files
+*.log
+tempCodeRunnerFile.py
+
+# Other Python tooling
+.python-version
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
