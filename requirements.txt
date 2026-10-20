@@ -7,7 +7,7 @@ streamlit
 openai-whisper
 
 # YouTube audio download
-yt-dlp[default]
+yt-dlp
 
 # Audio / video processing helpers
 pydub
@@ -20,7 +20,6 @@ langchain-community
 langchain-huggingface
 langchain-ollama
 huggingface-hub
-langchain-chroma
 
 # RAG: vector database and embeddings
 chromadb
