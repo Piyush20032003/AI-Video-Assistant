@@ -1,3 +1,19 @@
+import shutil
+import subprocess
+
+def check_runtime():
+    node_path = shutil.which("node")
+    print("Node executable:", node_path)
+
+    if node_path:
+        result = subprocess.run(
+            [node_path, "--version"],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        print("Node version:", result.stdout.strip())
+        print("Node error:", result.stderr.strip())
 
 import os
 import yt_dlp
