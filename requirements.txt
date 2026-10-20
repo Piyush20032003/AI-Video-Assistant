@@ -7,7 +7,7 @@ streamlit
 openai-whisper
 
 # YouTube audio download
-yt-dlp
+yt-dlp[default]
 
 # Audio / video processing helpers
 pydub
