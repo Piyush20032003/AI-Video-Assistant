@@ -1,4 +1,5 @@
 # 🎬 AI Video Assistant
+<img width="956" height="477" alt="image" src="https://github.com/user-attachments/assets/cbaed5d3-49fb-4467-9dae-7e5768cf943a" />
 
 **Turn videos and meeting recordings into searchable, actionable knowledge.**
 
