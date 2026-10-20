@@ -20,6 +20,7 @@ langchain-community
 langchain-huggingface
 langchain-ollama
 huggingface-hub
+langchain-chroma
 
 # RAG: vector database and embeddings
 chromadb
